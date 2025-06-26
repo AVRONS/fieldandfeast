@@ -25,3 +25,54 @@ soft-white: #FAF9F6;
 
 
 /* Global Styles */
+Body{
+background-color: #1F2A44;
+font-family: Playfair Display;
+}
+
+h1{
+  color: #F8F4EC;
+  text-align: center;
+
+}
+h2{
+
+}
+
+.head-p{
+  color: #FAF9F6;
+  text-align: center;
+  font-family: Playfair Display;
+}
+
+.main-logo{
+ margin-left: 35rem;
+  padding-right: 5rem; 
+}
+
+.nav-bar{
+  background-color: #E5C185;
+  text-align: center;
+}
+
+.nav-box{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  color: #1F2A44;
+  font-weight: bold;
+  
+}
+.nav-bar ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-bar li{
+  margin: 0.5rem 0;
+}
+
+
+
+
+
