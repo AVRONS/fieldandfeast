@@ -89,11 +89,32 @@ color: #1F2A44;
 
 
 hr:nth-of-type(1){
-border-bottom: 2px solid var(--champagne-gold);
+border-bottom: 3px solid var(--champagne-gold);
 margin-top: 6rem;
  background-color:var(--soft-white);
  margin: 0;
   padding: 0;
+  margin-top: 2rem;
+}
+
+.offerings{
+  padding-top: 20px;
+
+}
+
+.green-banner{
+display: grid;
+grid-template-columns: 1fr;
+gap: 1rem;
+margin-bottom: 1rem;
+}
+
+.banner{
+background-color: var(--olive-green);
+border-radius: 8px;
+padding: 1rem;
+box-sizing: border-box;
+box-shadow: 2px 2px 6px ;
 }
 
 
