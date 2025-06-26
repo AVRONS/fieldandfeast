@@ -46,7 +46,9 @@ color: #1F2A44;
 }
 
 .main-logo{
- margin-left: 40rem;
+ display: block;
+ margin: 0 auto;
+ height: 10rem;;
   padding-right: 1rem; 
   color: #F8F4EC;
   height: 20rem; 
@@ -59,7 +61,7 @@ color: #1F2A44;
 }
 
 .nav-box{
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 3rem;
   color: #1F2A44;
@@ -105,7 +107,9 @@ margin-top: 6rem;
 .green-banner{
 display: grid;
   grid-template-columns:1fr 1fr;
-  gap: -55rem;
+  gap: 2rem;
+  justify-content: center;
+  
   
   
 
@@ -138,9 +142,26 @@ padding: 1rem;
 
 .gallery-selection{
   max-width: 1200px;
+  margin: 1.2rem auto 0 auto;
   padding: 0 2rem;
   text-align: left;
 }
+
+.gallery-grid{
+display: grid;
+grid-template-columns: 1fr;
+gap: 1.5rem;
+margin-top: 2rem;
+}
+
+.gallery-p{
+  background-color: #F8F4EC;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
 
 
 
