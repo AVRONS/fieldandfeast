@@ -15,12 +15,12 @@ box-sizing: border-box;
 
 /* Root Variables */
 :root{
-midnight-blue: #1F2A44;
-olive-green: #76885B;
-champagne-gold: #E5C185;
-linen: #F8F4EC;
-dark-charcoal: #2B2B2B;
-soft-white: #FAF9F6;
+--midnight-blue: #1F2A44;
+--olive-green: #76885B;
+--champagne-gold: #E5C185;
+--linen: #F8F4EC;
+--dark-charcoal: #2B2B2B;
+--soft-white: #FAF9F6;
 }
 
 
@@ -70,6 +70,17 @@ h2{
 }
 .nav-bar li{
   margin: 0.5rem 0;
+
+}
+
+
+.welcome-section{
+  font-family: Playfair Display;
+  color:#1F2A44;
+  text-align: left;
+  padding:0 2rem;
+
+
 }
 
 
