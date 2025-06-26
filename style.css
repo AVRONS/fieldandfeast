@@ -222,6 +222,28 @@ background-color:var(--olive-green);
   
 }
 
+/* Media 600px */
+@media(min-width:600px) {
+ 
+}
+
+
+/* Media 900px */
+@media(min-width:900px){
+  
+
+  }
+ 
+  
+  
+
+
+/* Media 1200px */
+@media (min-width: 1200px){
+  
+
+
+}
 
 
 
