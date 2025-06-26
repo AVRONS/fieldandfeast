@@ -58,10 +58,11 @@ color: #1F2A44;
 .nav-bar{
   background-color: #E5C185;
   text-align: center;
+  color: var(--midnight-blue);
 }
 
-.nav-box{
-  max-width: 1000px;
+.nav-container{
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 3rem;
   color: #1F2A44;
@@ -92,11 +93,15 @@ color: #1F2A44;
 
 hr:nth-of-type(1){
 border-bottom: 3px solid var(--champagne-gold);
-margin-top: 6rem;
+margin-top: 15px;
  background-color:var(--soft-white);
  margin: 0;
   padding: 0;
   margin-top: 2rem;
+  width: 100%;
+  border-top: 5px;
+
+  
 }
 
 .offerings{
@@ -168,7 +173,7 @@ margin-top: 2rem;
 }
 .caption{
 
-  
+
 }
 .gallery-button{
   margin-top: 1rem;
@@ -197,6 +202,7 @@ margin-top: 2rem;
   color: #E5C185;
   
 }
+
 
 
 
