@@ -104,17 +104,25 @@ margin-top: 6rem;
 
 .green-banner{
 display: grid;
-grid-template-columns: 1fr;
-gap: 1rem;
-margin-bottom: 1rem;
+  grid-template-columns:1fr 1fr;
+  gap: -20rem;
+  
+
+
+
 }
 
 .banner{
 background-color: var(--olive-green);
+color: white;
 border-radius: 8px;
-padding: 1rem;
+width: 450px;
+margin-left: 1px;
+
+
 box-sizing: border-box;
-box-shadow: 2px 2px 6px ;
+
+padding: 1rem;
 }
 
 
